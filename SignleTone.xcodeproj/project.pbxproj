@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5812ECE3216607D80068F311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812ECE2216607D80068F311 /* AppDelegate.swift */; };
+		5812ECE5216607D80068F311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812ECE4216607D80068F311 /* ViewController.swift */; };
+		5812ECE8216607D80068F311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5812ECE6216607D80068F311 /* Main.storyboard */; };
+		5812ECEA216607E90068F311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5812ECE9216607E90068F311 /* Assets.xcassets */; };
+		5812ECED216607E90068F311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5812ECEB216607E90068F311 /* LaunchScreen.storyboard */; };
+		5812ECF8216607E90068F311 /* SignleToneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812ECF7216607E90068F311 /* SignleToneTests.swift */; };
+		5812ED03216607E90068F311 /* SignleToneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812ED02216607E90068F311 /* SignleToneUITests.swift */; };
+		5812ED12216608820068F311 /* ApplicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812ED11216608820068F311 /* ApplicationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5812ECF4216607E90068F311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5812ECD7216607D70068F311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5812ECDE216607D70068F311;
+			remoteInfo = SignleTone;
+		};
+		5812ECFF216607E90068F311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5812ECD7216607D70068F311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5812ECDE216607D70068F311;
+			remoteInfo = SignleTone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5812ECDF216607D70068F311 /* SignleTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignleTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812ECE2216607D80068F311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5812ECE4216607D80068F311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5812ECE7216607D80068F311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5812ECE9216607E90068F311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5812ECEC216607E90068F311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5812ECEE216607E90068F311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5812ECF3216607E90068F311 /* SignleToneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignleToneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812ECF7216607E90068F311 /* SignleToneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleToneTests.swift; sourceTree = "<group>"; };
+		5812ECF9216607E90068F311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5812ECFE216607E90068F311 /* SignleToneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignleToneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812ED02216607E90068F311 /* SignleToneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignleToneUITests.swift; sourceTree = "<group>"; };
+		5812ED04216607E90068F311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5812ED11216608820068F311 /* ApplicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5812ECDC216607D70068F311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ECF0216607E90068F311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ECFB216607E90068F311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5812ECD6216607D70068F311 = {
+			isa = PBXGroup;
+			children = (
+				5812ECE1216607D80068F311 /* SignleTone */,
+				5812ECF6216607E90068F311 /* SignleToneTests */,
+				5812ED01216607E90068F311 /* SignleToneUITests */,
+				5812ECE0216607D70068F311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5812ECE0216607D70068F311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5812ECDF216607D70068F311 /* SignleTone.app */,
+				5812ECF3216607E90068F311 /* SignleToneTests.xctest */,
+				5812ECFE216607E90068F311 /* SignleToneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5812ECE1216607D80068F311 /* SignleTone */ = {
+			isa = PBXGroup;
+			children = (
+				5812ED10216608300068F311 /* SharedManager */,
+				5812ECE2216607D80068F311 /* AppDelegate.swift */,
+				5812ECE4216607D80068F311 /* ViewController.swift */,
+				5812ECE6216607D80068F311 /* Main.storyboard */,
+				5812ECE9216607E90068F311 /* Assets.xcassets */,
+				5812ECEB216607E90068F311 /* LaunchScreen.storyboard */,
+				5812ECEE216607E90068F311 /* Info.plist */,
+			);
+			path = SignleTone;
+			sourceTree = "<group>";
+		};
+		5812ECF6216607E90068F311 /* SignleToneTests */ = {
+			isa = PBXGroup;
+			children = (
+				5812ECF7216607E90068F311 /* SignleToneTests.swift */,
+				5812ECF9216607E90068F311 /* Info.plist */,
+			);
+			path = SignleToneTests;
+			sourceTree = "<group>";
+		};
+		5812ED01216607E90068F311 /* SignleToneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5812ED02216607E90068F311 /* SignleToneUITests.swift */,
+				5812ED04216607E90068F311 /* Info.plist */,
+			);
+			path = SignleToneUITests;
+			sourceTree = "<group>";
+		};
+		5812ED10216608300068F311 /* SharedManager */ = {
+			isa = PBXGroup;
+			children = (
+				5812ED11216608820068F311 /* ApplicationManager.swift */,
+			);
+			path = SharedManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5812ECDE216607D70068F311 /* SignleTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812ED07216607E90068F311 /* Build configuration list for PBXNativeTarget "SignleTone" */;
+			buildPhases = (
+				5812ECDB216607D70068F311 /* Sources */,
+				5812ECDC216607D70068F311 /* Frameworks */,
+				5812ECDD216607D70068F311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignleTone;
+			productName = SignleTone;
+			productReference = 5812ECDF216607D70068F311 /* SignleTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5812ECF2216607E90068F311 /* SignleToneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812ED0A216607E90068F311 /* Build configuration list for PBXNativeTarget "SignleToneTests" */;
+			buildPhases = (
+				5812ECEF216607E90068F311 /* Sources */,
+				5812ECF0216607E90068F311 /* Frameworks */,
+				5812ECF1216607E90068F311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5812ECF5216607E90068F311 /* PBXTargetDependency */,
+			);
+			name = SignleToneTests;
+			productName = SignleToneTests;
+			productReference = 5812ECF3216607E90068F311 /* SignleToneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5812ECFD216607E90068F311 /* SignleToneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812ED0D216607E90068F311 /* Build configuration list for PBXNativeTarget "SignleToneUITests" */;
+			buildPhases = (
+				5812ECFA216607E90068F311 /* Sources */,
+				5812ECFB216607E90068F311 /* Frameworks */,
+				5812ECFC216607E90068F311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5812ED00216607E90068F311 /* PBXTargetDependency */,
+			);
+			name = SignleToneUITests;
+			productName = SignleToneUITests;
+			productReference = 5812ECFE216607E90068F311 /* SignleToneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5812ECD7216607D70068F311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "RAVISH AGNIHOTRI";
+				TargetAttributes = {
+					5812ECDE216607D70068F311 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5812ECF2216607E90068F311 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5812ECDE216607D70068F311;
+					};
+					5812ECFD216607E90068F311 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5812ECDE216607D70068F311;
+					};
+				};
+			};
+			buildConfigurationList = 5812ECDA216607D70068F311 /* Build configuration list for PBXProject "SignleTone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5812ECD6216607D70068F311;
+			productRefGroup = 5812ECE0216607D70068F311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5812ECDE216607D70068F311 /* SignleTone */,
+				5812ECF2216607E90068F311 /* SignleToneTests */,
+				5812ECFD216607E90068F311 /* SignleToneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5812ECDD216607D70068F311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812ECED216607E90068F311 /* LaunchScreen.storyboard in Resources */,
+				5812ECEA216607E90068F311 /* Assets.xcassets in Resources */,
+				5812ECE8216607D80068F311 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ECF1216607E90068F311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ECFC216607E90068F311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5812ECDB216607D70068F311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812ED12216608820068F311 /* ApplicationManager.swift in Sources */,
+				5812ECE5216607D80068F311 /* ViewController.swift in Sources */,
+				5812ECE3216607D80068F311 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ECEF216607E90068F311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812ECF8216607E90068F311 /* SignleToneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812ECFA216607E90068F311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812ED03216607E90068F311 /* SignleToneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5812ECF5216607E90068F311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5812ECDE216607D70068F311 /* SignleTone */;
+			targetProxy = 5812ECF4216607E90068F311 /* PBXContainerItemProxy */;
+		};
+		5812ED00216607E90068F311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5812ECDE216607D70068F311 /* SignleTone */;
+			targetProxy = 5812ECFF216607E90068F311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5812ECE6216607D80068F311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5812ECE7216607D80068F311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5812ECEB216607E90068F311 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5812ECEC216607E90068F311 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5812ED05216607E90068F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5812ED06216607E90068F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5812ED08216607E90068F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignleTone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.yash.SignleTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5812ED09216607E90068F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignleTone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.yash.SignleTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5812ED0B216607E90068F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignleToneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.yash.SignleToneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignleTone.app/SignleTone";
+			};
+			name = Debug;
+		};
+		5812ED0C216607E90068F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignleToneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.yash.SignleToneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignleTone.app/SignleTone";
+			};
+			name = Release;
+		};
+		5812ED0E216607E90068F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignleToneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.yash.SignleToneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignleTone;
+			};
+			name = Debug;
+		};
+		5812ED0F216607E90068F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignleToneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.yash.SignleToneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignleTone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5812ECDA216607D70068F311 /* Build configuration list for PBXProject "SignleTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812ED05216607E90068F311 /* Debug */,
+				5812ED06216607E90068F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812ED07216607E90068F311 /* Build configuration list for PBXNativeTarget "SignleTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812ED08216607E90068F311 /* Debug */,
+				5812ED09216607E90068F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812ED0A216607E90068F311 /* Build configuration list for PBXNativeTarget "SignleToneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812ED0B216607E90068F311 /* Debug */,
+				5812ED0C216607E90068F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812ED0D216607E90068F311 /* Build configuration list for PBXNativeTarget "SignleToneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812ED0E216607E90068F311 /* Debug */,
+				5812ED0F216607E90068F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5812ECD7216607D70068F311 /* Project object */;
+}
